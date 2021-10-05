@@ -6,8 +6,7 @@ print("[1] WhatsApp Checker (PN)")
 print("[2] Установка смс бомбера.")
 print("[3] Смс бомбер (Требуется установка из 2 пункта)")
 print("[4] Контакты автора.")
-print("[5] Termux-API (Для Termux юзеров, нужен Termux:API. Так же изза бага сдесь NickName Finder)")
-print("[6] Определение типа хэша. By Sans.")
+print("[5] Termux-API/Other")
 print("После того как вы сделали в нужном вам пункте перезапустите .py, если он не предложил вам это сделать/не сделал автоматически!")
 menu = input("Введите пункт меню: ")
 if menu == "1":
@@ -56,6 +55,7 @@ if menu == "5":
 	print("[D] Выключить Wi-Fi")
 	print("[E] Поставить флаг Украины на обои.")
 	print("[F] NickName Finder")
+        print("[G] Hash Detector by sans")
 	menu2 = input("Введите пункт меню: ")
 	
 	
@@ -110,6 +110,6 @@ if menu2 == "F":
 		os.system("clear")
 		os.system("python screazesoft.py")
 
-if menu == "6":
+if menu2 == "G":
 	os.system("clear")
 	os.system("python hashdetect.py")
