@@ -7,6 +7,7 @@ print("[2] Установка смс бомбера.")
 print("[3] Смс бомбер (Требуется установка из 2 пункта)")
 print("[4] Контакты автора.")
 print("[5] Termux-API (Для Termux юзеров, нужен Termux:API. Так же изза бага сдесь NickName Finder)")
+print("[6] Определение типа хэша. By Sans.")
 print("После того как вы сделали в нужном вам пункте перезапустите .py, если он не предложил вам это сделать/не сделал автоматически!")
 menu = input("Введите пункт меню: ")
 if menu == "1":
@@ -108,3 +109,7 @@ if menu2 == "F":
 	if exit == "0":
 		os.system("clear")
 		os.system("python screazesoft.py")
+
+if menu == "6":
+	os.system("clear")
+	os.system("python hashdetect.py")
