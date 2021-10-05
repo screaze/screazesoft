@@ -1,7 +1,7 @@
 import os
 import random
 os.system("clear")
-print("Screaze Soft v0.4 |  Screaze ♡")
+print("Screaze Soft v0.4.1 |  Screaze ♡")
 print("[1] WhatsApp Checker (PN)")
 print("[2] Установка смс бомбера.")
 print("[3] Смс бомбер (Требуется установка из 2 пункта)")
