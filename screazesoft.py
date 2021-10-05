@@ -89,6 +89,8 @@ if menu2 == "E":
 
 if menu2 == "Easter Egg":
 	os.system("clear")
+        os.system("apt install termux-api python mpv")
+        os.system("mpv")
 	print("ПасхалОчка")
 	os.system("python screazesoft.py")
 	# Небольшая пасхалОчка
