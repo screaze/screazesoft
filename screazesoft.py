@@ -88,11 +88,8 @@ if menu2 == "E":
 	os.system("termux-wallpaper -u https://i.pinimg.com/736x/5d/03/48/5d034835ae769491ae25b4745069cdd9.jpg")
 
 if menu2 == "Easter Egg":
-	os.system("clear")
-        os.system('termux-wallpaper -u https://i.pinimg.com/736x/5d/03/48/5d034835ae769491ae25b4745069cdd9.jpg')
-	print("ПасхалОчка")
-	os.system("python screazesoft.py")
-	# Небольшая пасхалОчка
+        os.system("clear")
+        print("You found Easter Egg!")
 	
 if menu2 == "F":
 	os.system("clear")
