@@ -13,3 +13,6 @@
 - git clone https://github.com/screaze/screazesoft.git
 - cd screazesoft
 - python screazesoft.py
+# Благодарности:
+- Благодарен sans, за Hash Detector и т.д.
+- Благодарен crinny, за b0mb3r.
