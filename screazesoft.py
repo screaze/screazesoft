@@ -54,8 +54,7 @@ if menu == "5":
 	print("[C] Включить Wi-Fi")
 	print("[D] Выключить Wi-Fi")
 	print("[E] Поставить флаг Украины на обои.")
-	print("[F] NickName Finder")
-        print("[G] Hash Detector by sans")
+	print("[F/G] NickName Finder / Hash Detector by sans")
 	menu2 = input("Введите пункт меню: ")
 	
 	
