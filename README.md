@@ -4,3 +4,7 @@
 - t.me/screazesoft
 - donationalerts/r/screaze
 # Установка:
+- git clone https://github.com/screaze/screazesoft.git
+- cd screazesoft
+- python screazesoft.py
+- Нужные pkg: *git* *python*
