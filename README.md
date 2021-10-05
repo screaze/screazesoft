@@ -8,3 +8,8 @@
 - cd screazesoft
 - python screazesoft.py
 - Нужные pkg: *git* *python*
+# Обновление:
+- rm --dir screazesoft
+- git clone https://github.com/screaze/screazesoft.git
+- cd screazesoft
+- python screazesoft.py
