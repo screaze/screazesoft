@@ -59,7 +59,7 @@ if menu == "5":
 	menu2 = input("Введите пункт меню: ")
 	
 	
-elif menu2 == "A":
+if menu2 == "A":
 	os.system("clear")
 	print("Фонарик включён.")
 	os.system("termux-torch on")
