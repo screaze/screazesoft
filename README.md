@@ -7,6 +7,7 @@
 - git clone https://github.com/screaze/screazesoft.git
 - cd screazesoft
 - pip install slowprint
+- pip install colorama
 - python screazesoft.py
 - Нужные pkg: *git* *python*
 # Обновление:
