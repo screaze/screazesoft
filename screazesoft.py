@@ -3,15 +3,15 @@ import random
 import time
 import sys
 os.system("clear")
-print("\033[32mScreaze Soft v0.5 |  Screaze ♡")
-print("[1] WhatsApp Checker (PN)")
-print("[2] Установка смс бомбера")
-print("[3] Смс бомбер (Требуется установка из 2 пункта)")
-print("[4] Техподдержка")
-print("[5] Ботнет для телеграмма")
-print("[6] Termux-API/Other")
-print("[X] Выход")
-menu = input("\nВведите пункт меню: ")
+print("\033[32mScreaze Soft v0.5.1 | Screaze ♡")
+print("[1] - WhatsApp Checker (PN)")
+print("[2] - Установка смс бомбера")
+print("[3] - Смс бомбер (Требуется установка из 2 пункта)")
+print("[4] - Техподдержка")
+print("[5] - Ботнет для телеграмма")
+print("[6] - Termux-API/Other")
+print("[X] - Выход")
+menu = input("\nВведите пункт из меню: ")
 if menu == "1":
 	os.system('clear')
 	print("WhatsApp Checker | Screaze ♡")
@@ -55,11 +55,14 @@ if exit == "0":
 	
 if menu == "5":
     os.system("clear")
-    answ = str(input("Хотите ли вы открыть конфиг для настройки ботнета? [y/n]  "))
+    answ = str(input("Хотите ли вы открыть конфиг для настройки ботнета? [y/n/x]  "))
     if answ == "y":
         os.system("nano config.ini")
     if answ == "n":
         os.system("python botnet.py")
+    if answ == "x":
+        os.system("clear")
+        os.system("python screazesoft.py")
     else:
         print("Неизвестный параметр!")
         time.sleep(2)
@@ -73,12 +76,13 @@ if menu == "X":
 	
 if menu == "6":
 	os.system("clear")
-	print("[A] Включить фонарик")
-	print("[B] Выключить фонарик")
-	print("[C] Включить Wi-Fi")
-	print("[D] Выключить Wi-Fi")
-	print("[E] Поставить флаг Украины на обои.")
-	print("[N/H] NickName Finder / Hash Detector by sans")
+	print("[A] - Включить фонарик")
+	print("[B] - Выключить фонарик")
+	print("[C] - Включить Wi-Fi")
+	print("[D] - Выключить Wi-Fi")
+	print("[E] - Поставить флаг Украины на обои.")
+	print("[N/H] Искатель по нику & Определитель хэшей by sans")
+	print("[X] - Назад")
 	
 menu2 = input("Введите пункт меню: ")
 	
@@ -111,6 +115,9 @@ if menu2 == "E":
 	print("Обои устанавливаются...")
 	os.system("termux-wallpaper -u https://i.pinimg.com/736x/5d/03/48/5d034835ae769491ae25b4745069cdd9.jpg")
 	print("Обои успешно установлены!")
+if menu2 == "X":
+    os.system("clear")
+    os.system("python screazesoft.py")
 
 if menu2 == "Easter Egg":
         os.system("clear")
@@ -126,8 +133,8 @@ if menu2 == "Easter Egg":
 	
 if menu2 == "N":
 	os.system("clear")
-	print("NickName Finder | Screaze♡")
-	print("Сервисов: 4")
+	print("Искатель по нику | Screaze♡")
+	print("Сервисов: 17")
 	print("Сервисы будут обновляться")
 	nickname = input("Введите никнейм: ")
 	print("Результаты:")
@@ -135,7 +142,17 @@ if menu2 == "N":
 	print("donationalerts.com/r/"+nickname)
 	print("https://vk.com/"+nickname)
 	print("https://github.com/"+nickname)
-	print("В будущем добавлю ещё.")
+	print("https://instagram.com/"+nickname)
+	print("https://facebook.com/"+nickname)   
+	print("https://"+nickname+".wordpress.com")
+	print("https://pinterest.com/"+nickname)
+	print("https://twitter.com/"+nickname)
+	print("https://youtube.com/"+nickname)
+	print("https://reddit.com/user/"+nickname)
+	print("https://"+nickname+".tumblr.com")
+	print("https://www.flickr.com/people/"+nickname)
+	print("https://vimeo.com/"+nickname)
+	print("https://soundcloud.com/"+nickname)
 	exit = input("Введите 0 для выхода: ")
 	
 	if exit == "0":
