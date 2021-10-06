@@ -101,6 +101,14 @@ if menu2 == "E":
 if menu2 == "Easter Egg":
         os.system("clear")
         print("You found Easter Egg!")
+        ukraina = input("У вас есть Termux:API? (Y/N)")
+        if ukraina == "Y":
+        	os.system("clear")
+        	os.system("python ukraina.py")
+        	
+        if ukraina == "N":
+        	os.system("clear")
+        	os.system("python screazesoft.py")
 	
 if menu2 == "F":
 	os.system("clear")
