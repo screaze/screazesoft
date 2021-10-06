@@ -6,6 +6,7 @@
 # Установка:
 - git clone https://github.com/screaze/screazesoft.git
 - cd screazesoft
+- pip install slowprint
 - python screazesoft.py
 - Нужные pkg: *git* *python*
 # Обновление:
