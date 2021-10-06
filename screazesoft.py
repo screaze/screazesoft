@@ -2,17 +2,21 @@ import os
 import random
 import time
 import sys
+import string
+import ctypes
+from slowprint.slowprint import *
 os.system("clear")
-print("\033[32mScreaze Soft v0.6 | Screaze ♡")
-print("[1] - WhatsApp Checker (PN)")
-print("[2] - Установка смс бомбера")
-print("[3] - Смс бомбер (Требуется установка из 2 пункта)")
-print("[4] - Техподдержка")
-print("[5] - Хакинг")
-print("[6] - Дединсайд ботнет")
-print("[7] - Ботнет для телеграмма")
-print("[8] - Termux-API/Other")
-print("[X] - Выход")
+slowprint("\033[32mScreaze Soft v0.7#BETA | Screaze ♡ & Sans", 0.1)
+slowprint("[1] - WhatsApp Checker (PN)", 0.1)
+slowprint("[2] - Установка смс бомбера", 0.1)
+slowprint("[3] - Смс бомбер (Требуется установка из 2 пункта)", 0.1)
+slowprint("[4] - Техподдержка", 0.1)
+slowprint("[5] - Хакинг", 0.1)
+slowprint("[6] - Дединсайд ботнет", 0.1)
+slowprint("[7] - Ботнет для телеграмма", 0.1)
+slowprint("[8] - Дискорд нитро генератор", 0.1)
+slowprint("[9] - Termux-API/Other", 0.1)
+slowprint("[X] - Выход", 0.1)
 menu = input("\nВведите пункт из меню: ")
 if menu == "1":
 	os.system('clear')
@@ -115,9 +119,13 @@ if menu == "7":
 if menu == "X":
     print("Выход...")
     sys.exit()
+
+if menu == "8":
+    os.system("clear")
+    os.system("python checker.py")
  
 	
-if menu == "8":
+if menu == "9":
 	os.system("clear")
 	print("[A] - Включить фонарик")
 	print("[B] - Выключить фонарик")
