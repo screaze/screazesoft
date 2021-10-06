@@ -41,25 +41,26 @@ while True:
     while run != 1:
         os.system('cls' if os.name == 'nt' else 'clear')
         print(f"""
-[$] Working Accounts >> {accounts}
-[$] Deleted Accounts >> {dead}
+Telegram BotNet v0.2 ♡
+[$] Рабочих аккаунтов >> {accounts}
+[$] Удаленных аккаунтов >> {dead}
 
-[0] – Edit number of accounts
-[1] – Join chat
-[2] – Leave chat
-[3] – Flood to chat/private (text)
-[4] – Flood to chat/private (gif)
-[5] – Flood to chat/private (voice)
-[6] – Flood to chat/private (photo)
-[7] – Flood to chat/private (sticker)
-[8] – Restart BotNet
-[9] – Exit
+[0] – Изменить кол-во аккаунтов.
+[1] – Зайти в беседу/канал.
+[2] – Выйти из беседы/канала.
+[3] - Флуд в чат/беседу (text)
+[4] – Флуд в чат/беседу (gif)
+[5] – Флуд в чат/беседу (voice)
+[6] – Флуд в чат/беседу (photo)
+[7] – Флуд в чат/беседу (sticker)
+[8] – Рестарт
+[9] – Выход
 """)
         action = input('>> ')
         if action == "0" or action == "1" or action == "2" or action == "3" or action == "4" or action == "5" or action == "6" or action == "7" or action == "8" or action == "9":
             run = 1
         else:
-            print('[x] Unknown command!')
+            print('[x] Неизвестная команда!')
             sleep(1)
 
     if action == '0':
@@ -74,11 +75,11 @@ while True:
         for _ in app:
             try:
                 app[_].join_chat(group)
-                print(f'\033[32m[v] {_} joined to @{group}')
+                print(f'\033[32m[v] {_} зашёл в @{group}')
             except:
-                print(f'\033[31m[x] {_} cannot join to @{group}')
-        print(f'\033[33m[√] All accounts joined to @{group}')
-        input('\033[32m[*] Press ENTER to continue')
+                print(f'\033[31m[x] {_} не может зайти в @{group}')
+        print(f'\033[33m[√] Все аккаунты зашли в @{group}')
+        input('\033[32m[*] Нажмите ENTER')
 
 
     if action == '2':
@@ -87,19 +88,19 @@ while True:
         for _ in app:
             try:
                 app[_].leave_chat(group)
-                print(f'\033[32m[v] {_} account leaved from @{group}')
+                print(f'\033[32m[v] {_} аккаунт вышел из @{group}')
             except:
-                print(f'\033[31m[x] {_} account cannot leave from @{group}')
-        print(f'\033[32m[√] All accounts leaved from @{group}')
-        input('\033[32m[*] Press ENTER to continue')
+                print(f'\033[31m[x] {_} аккаунт не может выйти из @{group}')
+        print(f'\033[32m[√] Все аккаунтц вышли из @{group}')
+        input('\033[32m[*] Нажмите ENTER.')
 
 
     if action == '3':
         group = input('\033[31mUsername>> \033[39m')
         text = input('\033[31mText>> \033[39m')
 
-        msgs = int(input('\033[31mMessages count (from every account)>> \033[39m'))
-        cooldown = int(input('\033[31mCooldown>> \033[39m'))
+        msgs = int(input('\033[31m Кол-во сообщений (Для всех аккаунтов)>> \033[39m'))
+        cooldown = int(input('\033[31mЗадержка в секундах (советую 3-5) >> \033[39m'))
         sms = 0
         ping = perf()
         for z in range(msgs):
@@ -107,12 +108,12 @@ while True:
                 try:
                    app[_].send_message(group, text)
                    sms += 1
-                   print(f'\033[32m[v] {_} account sent {sms} message to @{group}')
+                   print(f'\033[32m[v] {_} аккаунт отправил {sms} сообщение в @{group}')
                    sleep(cooldown)
                 except:
-                   print(f'\033[31m[x] {_} account cannot send message to @{group}')
-        print(f'\033[32m[√] All messages sent to @{group}')
-        input('\033[32m[*] Press ENTER to continue')
+                   print(f'\033[31m[x] {_} аккаунт не смог отправить сообщение в @{group}')
+        print(f'\033[32m[√] Все сообщения отправлены в @{group}')
+        input('\033[32m[*] Нажмите ENTER.')
 
 
     if action == '4':
@@ -216,7 +217,7 @@ while True:
 
 
     if action == '9':
-        print("\033[32m[√] Exiting...")
+        print("\033[32m[√] Выход...")
         os.system("clear")
         os.system("python screazesoft.py")
 
