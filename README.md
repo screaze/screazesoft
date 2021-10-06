@@ -16,3 +16,4 @@
 # Благодарности:
 - Благодарен sans, за Hash Detector и т.д.
 - Благодарен crinny, за b0mb3r.
+- Благодарен за метасплоит в версии 6.0 https://github.com/gushmazuko/metasploit_in_termux/
