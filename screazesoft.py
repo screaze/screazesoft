@@ -129,7 +129,7 @@ if menu2 == "F":
 
 if menu2 == "G":
 	os.system("clear")
-	os.system("python hashdetect.py")
+	os.system("python hashdetector.py")
 else:
     print("Неизвестное действие!")
     time.sleep(2)
