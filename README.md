@@ -8,6 +8,8 @@
 - cd screazesoft
 - pip install slowprint
 - pip install colorama
+- pip inatall pyrogram
+- pip install tgcrypto
 - python screazesoft.py
 - Нужные pkg: *git* *python*
 # Обновление:
