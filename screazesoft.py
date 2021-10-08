@@ -247,7 +247,7 @@ if crasher == "X":
 	
 if crasher == "1":
 	os.system("clear")
-	os.system("nano cfgcrash.ini")
+	os.system("nano raidcfg.ini")
 	os.system("python screazesoft.py")
 
 if crasher == "2":
