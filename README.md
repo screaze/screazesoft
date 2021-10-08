@@ -1,4 +1,4 @@
-# screazesoft
+# screazesoft v7.0#
 # Контакты автора:
 - t.me/screaze
 - t.me/screazesoft
@@ -10,6 +10,7 @@
 - pip install colorama
 - pip inatall pyrogram
 - pip install tgcrypto
+- apt install nano
 - python screazesoft.py
 - Нужные pkg: *git* *python*
 # Обновление:
