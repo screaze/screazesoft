@@ -24,5 +24,6 @@
 - Благодарен за метасплоит в версии 6.0 (https://github.com/gushmazuko/metasploit_in_termux/)
 - Благодарен error1001es за teleghoul(https://github.com/error1001es/teleghoul.git)
 - Благодарен создателю репозитория: https://github.com/logicguy1/Discord-Nitro-Generator-and-Checker
+- Дискорд крашер: https://github.com/GlUTEN-BASH/discord_crasher
 # Примечание:
 - Если у вас появились проблемы с законом, авторов "screazesoft" это не касается, репозиторий сделан в образовательных/ознакомительных целях.
