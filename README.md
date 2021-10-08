@@ -10,6 +10,7 @@
 - pip install colorama
 - pip inatall pyrogram
 - pip install tgcrypto
+- pip install discord
 - apt install nano
 - python screazesoft.py
 - Нужные pkg: *git* *python*
