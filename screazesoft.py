@@ -256,4 +256,4 @@ if crasher == "2":
   	
 if crasher == "3":
 	os.system("clear")
-	os.system("pyton modded.py")
+	os.system("python modded.py")
