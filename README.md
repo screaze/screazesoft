@@ -1,4 +1,4 @@
-# screazesoft v7.0#
+# screazesoft v0.7
 # Контакты автора:
 - t.me/screaze
 - t.me/screazesoft
