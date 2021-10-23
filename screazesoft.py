@@ -17,6 +17,7 @@ slowprint("[7] - Ботнет для телеграмма", 0.1)
 slowprint("[8] - Дискорд нитро генератор", 0.1)
 slowprint("[9] - ХэшДетектор/Пробив по нику", 0.1)
 slowprint("[10] - Дискорд крашер.", 0.1)
+slowprint("[11] - DDoS URL", 0.1)
 slowprint("[X] - Выход", 0.1)
 menu = input("\nВведите пункт из меню: ")
 if menu == "1":
@@ -175,7 +176,11 @@ if menu == "10":
 	print("[3] - Запустить бота.")
 	print("[X] - Выйти.")
 	crasher = input("Введите пункт меню > ")
-	
+
+if menu == "11":
+    os.system("clear")
+    os.system("python ddos.py")
+
 if crasher == "X":
 	os.system("clear")
 	os.system("python screazesoft.py")
