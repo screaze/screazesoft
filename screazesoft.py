@@ -172,6 +172,7 @@ if menu2 == "H":
 if menu == "11":
     os.system("clear")
     os.system("python ddos.py")
+    os.system("python screazesoft.py")
 
 if menu == "10":
 	os.system("clear")
