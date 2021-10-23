@@ -7,6 +7,7 @@
 - git clone https://github.com/screaze/screazesoft.git
 - cd screazesoft
 - pip install slowprint
+- pip install discord_webhook
 - pip install click
 - pip install fake_headers
 - pip install requests
