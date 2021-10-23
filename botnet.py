@@ -54,7 +54,7 @@ while True:
 [X] – Выход
 """)
         action = input('>> ')
-        if action == "0" or action == "1" or action == "2" or action == "3" or action == "4" or action == "5" or action == "6" or action == "7" or action == "8" or action == "9":
+        if action == "0" or action == "1" or action == "2" or action == "3" or action == "4" or action == "5" or action == "R" or action == "E" or action == "X" or action == "9":
             run = 1
         else:
             print('[x] Неизвестная команда!')
