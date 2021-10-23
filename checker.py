@@ -52,14 +52,14 @@ class NitroGen: # Initialise the class
 ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
                                                         """) # Print the title card
         time.sleep(2) # Wait a few seconds
-        self.slowType("Сделали: Drillenissen#4268 и Benz#9000, переведено Сансом", .02) # Print who developed the code
+        self.slowType("Сделали: Drillenissen#4268 и Benz#9000", .02) # Print who developed the code
         time.sleep(1) # Wait a little more
-        self.slowType("\nВведите,какое количество нитро сгенерировать и чекнуть: ", .02, newLine = False) # Print the first question
+        self.slowType("\nКол-во кодов на чек >  ", .02, newLine = False) # Print the first question
 
         num = int(input('')) # Ask the user for the amount of codes
 
         # Get the webhook url, if the user does not wish to use a webhook the message will be an empty string
-        self.slowType("\nХотите ли вы использовать дискорд вебхук? \nЕсли да то впишите здесь или нажмите ENTER для игнора : ", .02, newLine = False)
+        self.slowType("\nХотите ли вы использовать дискорд вебхук? \nЕсли да то впишите здесь или нажмите ENTER для игнора > ", .02, newLine = False)
         url = input('') # Get the awnser
         webhook = url if url != "" else None # If the url is empty make it be None insted
 
