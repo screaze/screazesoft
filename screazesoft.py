@@ -58,33 +58,6 @@ if menu == "4":
 if exit == "0":
 	os.system("clear")
 	os.system("python screazesoft.py")
-
-if menu == "5":
-    os.system("clear")
-    print("\033[31m!!!ВНИМАНИЕ!!!")
-    print("\nПосле соглашения, ответственность за все ваши дальнейшие действия будет лежать на вас!!!")
-    hack = input("[Y/N] ")
-    if hack == "y":
-        os.system("clear")
-        print("[1] - Установка пентест утилит")
-        print("[X] Выход")
-        hack2 = input("Введите пункт из меню:  ")
-        if hack2 == "1":
-            os.system("apt install wget")
-            os.system("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
-            os.system("chmod +x metasploit.sh")
-            os.system("./metasploit.sh")
-            os.system("pip install sqlmap")
-        
-    if hack == "n":
-        os.system("clear")
-        os.system("python screazesoft.py")
-    else:
-        os.system("clear")
-        os.system("python screazesoft.py")
-    if hack2 == "X":
-        os.system("clear")
-        os.system("python screazesoft.py")
         
 if menu == "6":
     os.system("clear")
