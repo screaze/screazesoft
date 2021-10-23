@@ -59,7 +59,7 @@ class NitroGen: # Initialise the class
         num = int(input('')) # Ask the user for the amount of codes
 
         # Get the webhook url, if the user does not wish to use a webhook the message will be an empty string
-        self.slowType("\nХотите ли вы использовать дискорд вебхук? \nЕсли да то впишите здесь или нажмите ENTER для игнора > ", .02, newLine = False)
+        self.slowType("\nДС Вебхук? (Url/Enter) > ", .02, newLine = False)
         url = input('') # Get the awnser
         webhook = url if url != "" else None # If the url is empty make it be None insted
 
