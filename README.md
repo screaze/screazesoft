@@ -7,6 +7,9 @@
 - git clone https://github.com/screaze/screazesoft.git
 - cd screazesoft
 - pip install slowprint
+- pip install click
+- pip install fake_headers
+- pip install requests
 - pip install colorama
 - pip inatall pyrogram
 - pip install tgcrypto
