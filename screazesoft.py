@@ -6,7 +6,7 @@ import string
 import ctypes
 from slowprint.slowprint import *
 os.system("clear")
-slowprint("\033[32mScreaze Soft v0.7# | Screaze ♡ & Sans", 0.1)
+slowprint("\033[32mScreaze Soft v0.7, 0.1)
 slowprint("[1] - WhatsApp Checker (PN)", 0.1)
 slowprint("[2] - Установка смс бомбера", 0.1)
 slowprint("[3] - Смс бомбер (Требуется установка из 2 пункта)", 0.1)
