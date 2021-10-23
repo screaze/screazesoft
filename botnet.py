@@ -52,6 +52,8 @@ while True:
 [R] – Перезагрузка
 [E] - Изменить кол-во аккаунтов
 [X] – Выход
+
+Translate and modified by Screaze <3
 """)
         action = input('>> ')
         if action == "0" or action == "1" or action == "2" or action == "3" or action == "4" or action == "5" or action == "R" or action == "E" or action == "X" or action == "9":
