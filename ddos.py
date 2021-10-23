@@ -5,7 +5,7 @@
 
 import requests as r, os, threading, random, click, fake_headers
 from threading import Thread
-from colorama importgit clone https://github.com/FSystem88/dos-attack Fore, Style, Back
+from colorama import Fore, Style, Back
 from fake_headers import Headers
 
 def clear(): 
