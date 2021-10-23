@@ -47,11 +47,9 @@ if menu == "3":
 	
 if menu == "4":
 	print("Контакты автора:")
-	print("VK: zhernovv")
+	print("VK: lipeckiyscreaze")
 	print("Telegram: t.me/screaze")
-	print("DonationAlerts: donationalerts.com/r/screaze")
-	print("Контакты помощника")
-	print("Telegram : t.me/sudden_changes_sans")
+	print("DonationAlerts: https://donationalerts.com/r/screaze")
 	print("- Программа создана в образовательных целях! Автор не несёт отвественности за ваши действия.")
 	exit = input("Введите 0 для перезапуска!  ")
 	
@@ -64,7 +62,7 @@ if menu == "5":
     os.system("clear")
     print("\033[31m!!!ВНИМАНИЕ!!!")
     print("\nПосле соглашения, ответственность за все ваши дальнейшие действия будет лежать на вас!!!")
-    hack = input("[y/n] ")
+    hack = input("[Y/N] ")
     if hack == "y":
         os.system("clear")
         print("[1] - Установка пентест утилит")
