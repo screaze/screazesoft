@@ -18,6 +18,9 @@
 - apt install nano
 - python screazesoft.py
 - Нужные pkg: *git* *python*
+# Запуск:
+- cd screazesoft
+- python screazesoft.py
 # Обновление:
 - rm -r screazesoft
 - git clone https://github.com/screaze/screazesoft.git
