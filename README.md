@@ -23,18 +23,8 @@
 Введите пункт из меню >
 # Установка:
 - git clone https://github.com/screaze/screazesoft.git
-- cd screazesoft
-- pip install slowprint
-- pip install discord_webhook
-- pip install click
-- pip install fake_headers
-- pip install requests
-- pip install colorama
-- pip inatall pyrogram
-- pip install tgcrypto
-- pip install discord
 - apt install nano
-- python screazesoft.py
+- pip install -r zavisimosti.txt
 - Нужные pkg: *git* *python*
 # Запуск:
 - cd screazesoft
