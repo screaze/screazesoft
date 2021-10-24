@@ -27,6 +27,7 @@ os.system("clear")
 print("|--Деанон на" +nickname)
 print("|--Настоящее имя/фамилия:" +realname)
 print("|--Номер телефона:" +pn)
+print("|--IP:", +ip")
 print("|--Страна:" +srr)
 print("|--Город:"+srl)
 print("|--Образование:" +srt)
@@ -41,5 +42,6 @@ print("Совет: Если нет нужного раздела, вставь �
 print("Не удаляй ватермарку плз <3")
 exit = input("Введите 0 для выхода!!!  ")
 if exit == "0":
-    os.system("clear, python screazesoft.py")
+    os.system("clear")
+    os.system("python screazesoft.py")
     
