@@ -1,0 +1,9 @@
+colorama
+click
+discord
+slowprint
+pyrogram
+tgcrypto
+discord_webhook
+fake_headers
+requests
