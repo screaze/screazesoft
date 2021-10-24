@@ -211,4 +211,5 @@ if menu == "5":
        os.system("python screazesoft.py")
         
 if menu == "14":
-    os.system("clear, python deanongen.py")
+    os.system("clear")
+    os.system("python deanongen.py")
