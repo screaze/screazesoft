@@ -24,6 +24,7 @@
 # Установка:
 - git clone https://github.com/screaze/screazesoft.git
 - apt install nano
+- cd screazesoft
 - pip install -r zavisimosti.txt
 - Нужные pkg: *git* *python*
 # Запуск:
