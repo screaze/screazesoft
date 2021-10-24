@@ -1,6 +1,6 @@
 # screazesoft v0.8
 # Контакты автора:
-- t.me/screaze
+- t.me/lipeckiyscreaze
 - t.me/screazesoft
 - donationalerts.com/r/screaze
 # Установка:
