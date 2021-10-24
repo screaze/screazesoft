@@ -1,8 +1,10 @@
-# screazesoft v0.8
+# screazesoft v0.8.1
 # Контакты автора:
 - t.me/lipeckiyscreaze
 - t.me/screazesoft
 - donationalerts.com/r/screaze
+# Описание:
+- 13 функций, всё что нужно для настоящего термукс хацкера...
 # Установка:
 - git clone https://github.com/screaze/screazesoft.git
 - cd screazesoft
