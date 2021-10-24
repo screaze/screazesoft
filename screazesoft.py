@@ -12,11 +12,13 @@ neofetch = "" # Костыль ебать
 logo1 = " __                            _     "
 logo2 = "(_   _ ._ _   _. _   _   _  _ _|_ _|_ "
 logo3 = "__) (_ | (/_ (_| /_ (/_ _> (_) |   |_ [0.8.1] "
+# Логотип
 os.system("clear")
 print(logo1)
 print(logo2)
 print(logo3)
 print("")
+# Меню:
 slowprint("[1] - WhatsApp Checker (PN)", 0.1)
 slowprint("[2] - Установка смс бомбера", 0.1)
 slowprint("[3] - Смс бомбер (Требуется установка из 2 пункта)", 0.1)
@@ -27,11 +29,13 @@ slowprint("[7] - Ботнет для телеграмма", 0.1)
 slowprint("[8] - Дискорд нитро генератор", 0.1)
 slowprint("[9] - Бросить кубик", 0.1)
 slowprint("[10] - Дискорд крашер.", 0.1)
-slowprint("[11] - DDoS по url", 0.1)
+slowprint("[11] - DDoS по url (HTTP Attack)", 0.1)
 slowprint("[12] - Хэш детектор", 0.1)
 slowprint("[13] - Пробив по никнейму", 0.1)
 slowprint("[X] - Выход", 0.1)
 menu = input("Введите пункт из меню > ")
+
+# Ватсап чек:
 if menu == "1":
 	os.system('clear')
 	print("WhatsApp Checker | Screaze ♡")
@@ -42,6 +46,7 @@ if menu == "1":
 	print("")
 	exit = input("Введите 0 для перезапуска! ")
 	
+# Установка смс бомбера
 if menu == "2":
 	os.system('clear')
 	code = input("Подтвердите установку! (Y/N)")
@@ -52,12 +57,13 @@ if menu == "2":
 		print("Установка отменена!")
 		os.system("clear")
 		os.system("python screazesoft.py")
+# Смс бомбер
 if menu == "3":
 	print("Запуск...")
 	time.sleep(2)
 	os.system("b0mb3r")
 	exit = input("Введите 0 для перезапуска! ")
-	
+# Контакты	
 if menu == "4":
 	print("Контакты автора:")
 	print("VK: lipeckiyscreaze")
@@ -66,11 +72,11 @@ if menu == "4":
 	print("- Программа создана в образовательных целях! Автор не несёт отвественности за ваши действия.")
 	exit = input("Введите 0 для перезапуска!  ")
 	
-	
+# Выход
 if exit == "0":
 	os.system("clear")
 	os.system("python screazesoft.py")
-        
+# Дединсайд ботнет  
 if menu == "6":
     os.system("clear")
     answ = str(input("Хотите ли вы открыть конфиг для настройки ботнета? [y/n/x]  "))
@@ -84,7 +90,7 @@ if menu == "6":
 
     
     
-	
+# Обычный ботнет
 if menu == "7":
     os.system("clear")
     answ2 = str(input("Хотите ли вы открыть конфиг для настройки ботнета? [y/n/x]  "))
@@ -100,17 +106,17 @@ if menu == "7":
         time.sleep(2)
         os.system("clear")
         os.system("python screazesoft.py")
-
+# Выход из скрипта
 if menu == "X":
     print("Выход...")
     sys.exit()
-
+# Я забыл что это, а это же нитро генератор точно
 if menu == "8":
     os.system("clear")
     os.system("python checker.py")
  
 	
-	
+# Никнейм пробив
 if menu == "13":
 	os.system("clear")
 	print("Искатель по нику | Screaze♡")
@@ -138,17 +144,17 @@ if menu == "13":
 	if exit == "0":
 		os.system("clear")
 		os.system("python screazesoft.py")
-
+# Детектор хэшей
 if menu == "12":
 	os.system("clear")
 	os.system("python hashdetector.py")
 	
-
+# HTTP Attack
 if menu == "11":
     os.system("clear")
     os.system("python ddos.py")
     os.system("python screazesoft.py")
-
+# Discord Gluten Bot
 if menu == "10":
 	crasher == ""
 	os.system("clear")
@@ -176,7 +182,7 @@ if crasher == "2":
 if crasher == "3":
 	os.system("clear")
 	os.system("python modded.py")
-
+# Dice
 if menu == "9":
     os.system('clear')
     slowprint("Кубик падает...", 0.3)
@@ -188,7 +194,7 @@ if menu == "9":
     exit = input("Введите 0 для выхода > ")
     if exit == "0":
         os.system("python screazesoft.py")
-        
+# Neofetch
 if menu == "5":
    os.system("clear")
    neofetch = input("Установить/Установлен Neofetch? (I/Y/N) > ")
