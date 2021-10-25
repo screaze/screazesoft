@@ -7,5 +7,4 @@ tgcrypto
 discord_webhook
 fake_headers
 requests
-rarfile
-pyzipper
+vk_api
