@@ -1,5 +1,4 @@
-import smtplib
-import time
+import smtplib, time
 try:
     bomb_email = input("Введите email для атаки > ")
     email = input("Введите gmail с которого будете атаковать > ")
@@ -7,7 +6,6 @@ try:
     message = input("Введите сообщение > ")
     counter = int(input("Сколько хотите сообщений? > "))
 
-    # gmail of outlook
     s_ = input('Выбери провайдера (gmail/outlook) > ').lower()
 
     if s_ == "gmail":
