@@ -194,7 +194,7 @@ if menu == "9":
 if menu == "5":
    os.system("clear")
    neofetch = input("Установить/Установлен Neofetch? (I/Y/N) > ")
-   if neofefch == "Y":
+   if neofetch == "Y":
        os.system("clear")
        os.system("neofetch")
        exit = input("Введите 0 для выхода!  ")
