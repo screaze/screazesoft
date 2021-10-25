@@ -1,4 +1,4 @@
-# screazesoft v0.8.1
+# screazesoft v0.8.2
 # Контакты автора:
 - t.me/lipeckiyscreaze
 - t.me/screazesoft
@@ -21,6 +21,8 @@
 - [13] - Пробив по никнейму <3
 - [14] - DeanonGen <3 
 - [15] - EmailBomb <3
+- [16] - VkBan по токену
+- [17] - VKCScam
 Введите пункт из меню >
 # Установка:
 - git clone https://github.com/screaze/screazesoft.git
