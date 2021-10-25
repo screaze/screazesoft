@@ -32,6 +32,7 @@ slowprint("[11] - DDoS по url", 0.1)
 slowprint("[12] - Хэш детектор", 0.1)
 slowprint("[13] - Пробив по никнейму", 0.1)
 slowprint("[14] - DeanonGen", 0.2)
+slowprint("[15] - EmailBomber", 0.3)
 slowprint("[X] - Выход", 0.1)
 menu = input("Введите пункт из меню > ")
 if menu == "1":
@@ -213,3 +214,8 @@ if menu == "5":
 if menu == "14":
     os.system("clear")
     os.system("python deanongen.py")
+
+if menu == "15":
+    os.system("clear")
+    os.system("python emailbomb.py")
+
