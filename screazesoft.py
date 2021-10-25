@@ -10,7 +10,7 @@ from slowprint.slowprint import *
 # Уже доделал, сам аутист
 crasher = "" # Костыль, не обращайте внимание.
 neofetch = "" # Костыль ебать
-logo1 = " __                            _     "
+logo1 = " __                             _     "
 logo2 = "(_   _ ._ _   _. _   _   _  _ _|_ _|_ "
 logo3 = "__) (_ | (/_ (_| /_ (/_ _> (_) |   |_ [0.8.2] "
 os.system("clear")
