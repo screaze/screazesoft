@@ -39,7 +39,7 @@
 - cd screazesoft
 - python screazesoft.py
 # Благодарности:
-- Благодарен sans, за Hash Detector и т.д.
+- Благодарен создателю https://github.com/darkcoding12/FAST-BAN
 - Благодарен crinny, за b0mb3r.
 - Благодарен за метасплоит в версии 6.0 (https://github.com/gushmazuko/metasploit_in_termux/)
 - Благодарен error1001es за teleghoul(https://github.com/error1001es/teleghoul.git)
