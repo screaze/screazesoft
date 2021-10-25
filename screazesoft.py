@@ -33,6 +33,8 @@ slowprint("[12] - Хэш детектор", 0.1)
 slowprint("[13] - Пробив по никнейму", 0.1)
 slowprint("[14] - DeanonGen", 0.2)
 slowprint("[15] - EmailBomber", 0.3)
+slowprint("[16] - VkBan по токену", 0.1")
+slowprint("[17] - Скам по VKC API (pip install vkcoinapi)", 0.1")
 slowprint("[X] - Выход", 0.1)
 menu = input("Введите пункт из меню > ")
 if menu == "1":
@@ -218,4 +220,13 @@ if menu == "14":
 if menu == "15":
     os.system("clear")
     os.system("python emailbomb.py")
+
+if menu == "16":
+    os.system("clear")
+    os.system("python fastban.py")
+
+if menu == "17":
+    os.system("clear")
+    os.system("python vkcscam.py")
+
 
