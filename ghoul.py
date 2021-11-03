@@ -10,6 +10,9 @@ client.start()
 client.stop()
 
 print('Бот запущен, теперь ты - Гуль')
+print("Команды:")
+print("Я гуль")
+print(".ghoul-c")
 
 
 @client.on_message(filters.regex('Я гуль|я гуль') & filters.me)
