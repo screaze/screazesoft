@@ -22,8 +22,6 @@
 - [14] - DeanonGen <3 
 - [15] - EmailBomb <3
 - [16] - VkBan по токену
-- [17] - VKCScam
-Введите пункт из меню >
 # Установка:
 - git clone https://github.com/screaze/screazesoft.git
 - apt install nano
