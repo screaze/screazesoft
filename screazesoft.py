@@ -33,8 +33,10 @@ slowprint("[13] - OSINT Tools", 0.1)
 slowprint("[14] - Генератор деанонов", 0.2)
 slowprint("[15] - Бомбер электронной почты", 0.3)
 slowprint("[16] - Блокировка ВКонтакте по токену.", 0.1)
+slowprint("[17] - Блокировка пользователя в Глазе Бога", 0.1)
 slowprint("[X] - Выход", 0.1)
-menu = input("Введите пункт из меню > ")
+print("")
+menu = input("[?]Введите пункт из меню > ")
 if menu == "1":
 	os.system('clear')
 	os.system("python screazesoft.py")
@@ -50,7 +52,7 @@ if menu == "2":
     print("[2] Установка")
     print("[3] Информация")
     
-    bomber = input("Введите пункт меню > ") 
+    bomber = input("[?] Введите пункт меню > ") 
     
     if bomber == "1":
         os.system("clear")
@@ -228,5 +230,9 @@ if menu == "15":
 if menu == "16":
     os.system("clear")
     os.system("python fastban.py")
+
+if menu == "17":
+	os.system("clear")
+        os.system("python eyeofgod.py")
 
 
