@@ -1,4 +1,4 @@
-# screazesoft v0.8.2
+# screazesoft v0.9
 # Контакты автора:
 - t.me/lipeckiyscreaze
 - t.me/screazesoft
