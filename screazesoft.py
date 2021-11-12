@@ -12,28 +12,27 @@ crasher = "" # Костыль, не обращайте внимание.
 neofetch = "" # Костыль ебать
 logo1 = " __                             _     "
 logo2 = "(_   _ ._ _   _. _   _   _  _ _|_ _|_ "
-logo3 = "__) (_ | (/_ (_| /_ (/_ _> (_) |   |_ [0.8.2] "
+logo3 = "__) (_ | (/_ (_| /_ (/_ _> (_) |   |_ [0.9] "
 os.system("clear")
 print(logo1)
 print(logo2)
 print(logo3)
 print("")
-slowprint("[1] - WhatsApp Checker (PN)", 0.1)
-slowprint("[2] - Установка смс бомбера", 0.1)
-slowprint("[3] - Смс бомбер (Требуется установка из 2 пункта)", 0.1)
-slowprint("[4] - Техподдержка", 0.1)
-slowprint("[5] - Neofetch", 0.2)
-slowprint("[6] - Дединсайд ботнет", 0.1)
-slowprint("[7] - Ботнет для телеграмма", 0.1)
-slowprint("[8] - Дискорд нитро генератор", 0.1)
-slowprint("[9] - Бросить кубик", 0.1)
-slowprint("[10] - Дискорд крашер.", 0.1)
-slowprint("[11] - DDoS по url", 0.1)
-slowprint("[12] - Хэш детектор", 0.1)
-slowprint("[13] - Пробив по никнейму", 0.1)
-slowprint("[14] - DeanonGen", 0.2)
-slowprint("[15] - EmailBomber", 0.3)
-slowprint("[16] - VkBan по токену", 0.1)
+slowprint("[1] - Поиск ватсап по номеру телефона.", 0.1)
+slowprint("[2] - Смс бомбер ", 0.1)
+slowprint("[4] - Контакты автора", 0.1)
+slowprint("[5] - Neofetch (Termux)", 0.2)
+slowprint("[6] - Ботнет teleghoul", 0.1)
+slowprint("[7] - Ботнет для телеграмма.", 0.1)
+slowprint("[8] - Дискорд нитро генератор с вебхуком и чекингом.", 0.1)
+slowprint("[9] - Бросить кубик (Забавы ради)", 0.1)
+slowprint("[10] - Дискорд краш бот.", 0.1)
+slowprint("[11] - DDoS Атака по url (HTTP Flood)", 0.1)
+slowprint("[12] - Определение типа хэша.", 0.1)
+slowprint("[13] - Пробив по никнейму (слабый)", 0.1)
+slowprint("[14] - Генератор деанонов", 0.2)
+slowprint("[15] - Бомбер электронной почты", 0.3)
+slowprint("[16] - Блокировка ВКонтакте по токену.", 0.1)
 slowprint("[X] - Выход", 0.1)
 menu = input("Введите пункт из меню > ")
 if menu == "1":
@@ -45,23 +44,53 @@ if menu == "1":
 	print("https://wa.me/"+number)
 	print("")
 	exit = input("Введите 0 для перезапуска! ")
-	
+
+# b0mb3r меню
+
 if menu == "2":
-	os.system('clear')
-	code = input("Подтвердите установку! (Y/N)")
-	if code == "Y":
-		print("Подтверждено, установка...")
-		os.system("pip install db0mb3r")
-	if code == "N":
-		print("Установка отменена!")
-		os.system("clear")
-		os.system("python screazesoft.py")
-if menu == "3":
-	print("Запуск...")
-	time.sleep(2)
-	os.system("b0mb3r")
-	exit = input("Введите 0 для перезапуска! ")
-	
+    os.system("clear")
+    print("B0MB3R MENU")
+    print("")
+    print("[1] Запуск")
+    print("[2] Установка")
+    print("[3] Информация")
+    
+    bomber = input("Введите пункт меню > ") 
+    
+    if bomber == "1":
+        os.system("clear")
+        print("Откройте новую сессию и запустите screazesoft.py вручную для дальнейшего использования с бомбером!")
+        os.system("b0mb3r") # Запуск
+        
+    if bomber == "3":
+           os.system("clear")
+           print("Информация:")
+           print("=============")
+           print("Сервисы: 124")
+           print("Dev: crinny")
+           print("=============")
+           print("")
+           exit = input("Введите 0 для выхода > ")
+           # Инфо
+           
+    if bomber == "2":
+        os.system("clear")
+        bomber1 = input("Подтвердите установку (Y/N) > ")
+        if bomber1 == "Y":
+            os.system("clear")
+            print("УстановОчка...")
+            os.system("pip install db0mb3r")
+            os.system("clear")
+            os.system("python screazesoft.py")
+        if bomber1 == "N":
+            print("Отмена!")
+            os.system("clear")
+            os.system("python screazesoft.py")
+            # Установщик
+            
+            
+
+
 if menu == "4":
 	print("Контакты автора:")
 	print("VK: lipeckiyscreaze")
