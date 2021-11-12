@@ -44,6 +44,7 @@
 - Благодарен error1001es за teleghoul(https://github.com/error1001es/teleghoul.git)
 - Благодарен создателю репозитория: https://github.com/logicguy1/Discord-Nitro-Generator-and-Checker
 - Дискорд крашер: https://github.com/GlUTEN-BASH/discord_crasher
+- Спасибо за UserRecon https://github.com/issamelferkh/userrecon/
 - Блпгодарен создателю репозитория: https://github.com/FSystem88/dos-attack
 - Благодарен https://github.com/D3ntly за телеграм ботнет.
 # Примечание:
