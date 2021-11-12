@@ -8,3 +8,4 @@ discord_webhook
 fake_headers
 requests
 vk_api
+prettytable
