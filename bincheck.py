@@ -15,7 +15,7 @@ def _check_(cc):
 		if r["prepaid"]: p = r["prepaid"]
 		if r["bank"]: b = f'{r["bank"]["name"]}({r["bank"]["url"]})'
 	except: pass
-	T.field_names = ['CARD NUM','CARD SCHEME', 'CARD TYPE', 'CARD BRAND', 'CARD PREPAID', 'CARD COUNTRY', 'CARD BANK']
+	T.field_names = ['BIN','Схема', 'Тип', 'Бренд', 'Предоплата', 'Страна', 'Банк']
 	T.add_row([cc,r["scheme"], r["type"], r["brand"], p, f'{r["country"]["name"]}({r["country"]["emoji"]} )', b])
 	print(T)
 	print(ABOBA)
@@ -33,3 +33,4 @@ if __name__ == '__main__':
 				if len(cc) >= 6: _check_(cc)
 		except KeyboardInterrupt: print("\nПока!"); os.system("python osint.py, clear")
 		except EOFError: print("\nПока!"); os.system("python osint.py, clear")
+# patch 1
