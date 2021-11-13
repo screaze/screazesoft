@@ -27,7 +27,7 @@ slowprint("[7] - Ботнет для телеграмма.", 0.1)
 slowprint("[8] - Дискорд нитро генератор с вебхуком и чекингом.", 0.1)
 slowprint("[9] - Бросить кубик (Забавы ради)", 0.1)
 slowprint("[10] - Дискорд краш бот.", 0.1)
-slowprint("[11] - DDoS Атака по url (HTTP Flood)", 0.1)
+slowprint("[11] - Тех. Работы (Не работает)", 0.1)
 slowprint("[12] - Определение типа хэша.", 0.1)
 slowprint("[13] - OSINT Tools", 0.1)
 slowprint("[14] - Генератор деанонов", 0.2)
@@ -155,11 +155,6 @@ if menu == "12":
 	os.system("python hashdetector.py")
 	
 
-if menu == "11":
-    os.system("clear")
-    os.system("python ddos.py")
-    os.system("python screazesoft.py")
-
 if menu == "10":
 	crasher == ""
 	os.system("clear")
@@ -232,7 +227,7 @@ if menu == "16":
     os.system("python fastban.py")
 
 if menu == "17":
-	os.system("clear")
-        os.system("python eyeofgod.py")
+    os.system("clear")
+    os.system("python eyeofgod.py")
 
 
