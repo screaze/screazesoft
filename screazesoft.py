@@ -1,15 +1,7 @@
-import os
-import random
-import time
-import sys
-import string
-import ctypes
+import os, random, time, sys, string, ctypes
 from slowprint.slowprint import *
-# Импорты, можно было в строчку ну ок...
-# Бля скриз если ты это читаешь не забудь requirments.txt сделать аутист ебаный
-# Уже доделал, сам аутист
-crasher = "" # Костыль, не обращайте внимание.
-neofetch = "" # Костыль ебать
+crasher = ""
+neofetch = ""
 logo1 = " __                             _     "
 logo2 = "(_   _ ._ _   _. _   _   _  _ _|_ _|_ "
 logo3 = "__) (_ | (/_ (_| /_ (/_ _> (_) |   |_ [0.9] "
